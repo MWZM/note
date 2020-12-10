@@ -1,6 +1,8 @@
+#### 数组部分
+
 **1**  遍历数组：就是把数组的元素从头到尾都访问一次
 
-**2**数组长度：用length将数组中的字符个数打印出来
+**2 ** 数组长度：用length将数组中的字符个数打印出来
 
              注意点1.(数组长度是元素的个数  不要和索引号混淆）
     
@@ -569,9 +571,9 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
 
    1. ```
          1. window.onload = function(){}
-      
+            
             load 等页面内容全部加载完毕，包含页面dom元素 图片 flash  css 等等
-      
+            
          2. DOMContentLoaded 是DOM 加载完毕，不包含图片 falsh css 等就可以执行 加载速度比 load更快一些
       ```
 
@@ -581,7 +583,7 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
 
       resize
 
-<6>定时器
+##### <6>定时器
 
 ```
       1. setTimeout
@@ -599,11 +601,11 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
 
 
 
-<7>清除定时器
+##### <7>清除定时器
 
       clearTimeout(); 括号里面放定时器的名字
 
-<8> 循环定时器
+##### <8> 循环定时器
 
     setInterval 
     
@@ -613,18 +615,17 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
     
     3. setInterval  每隔这个延时时间，就去调用这个回调函数，会调用很多次，重复调用这个函数
 
-<9> 清除循环定时器
+##### <9> 清除循环定时器
 
    clearInterval（定时器的变量名）
 
-<10>this指向问题
+##### <10>this指向问题
 
    一般情况下this的最终指向的是那个调用它的对象  除过构造函数和箭头函数
 
    方法调用中谁调用this指向谁
 
-
-<11>location常见的方法
+##### <11>location常见的方法
 
           href  当前url内容
     
@@ -643,12 +644,11 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
 
   location.replace()
 
-
-<12>navigator 对象
+##### <12>navigator 对象
 
       navigator.userAgent: 当前浏览器的相关信息
 
-<13>history对象
+##### <13>history对象
 
       history.forward()返回上一层
     
@@ -656,7 +656,7 @@ str.substr（参数1，参数2） 进行截取字符串  第一个参数是开�
     
       history.back返回下一层
 
-<14>offset系列
+##### <14>offset系列
 
 	offsetLeft
 	
